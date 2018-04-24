@@ -1,0 +1,57 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# OG image is 1200 pixels x 627 pixels (1.91/1 ratio) -> don’t exceed the 5MB size limit.
+#variables
+country: CA
+lang: en
+title: Creative Dental Labs Provides High Quality Dental Prosthetics
+company_name: Creative Dental Laboratory
+company_nickname: Creative Dental Labs
+social_image: assets/share_site.jpg
+email: your-email@example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com while in developement mode it is set to localhost:4000
+author: Daniel Eisen
+twitter_username: twitterMan
+github_username: daniel-eisen
+google_analytics: "" # google site verification for the header
+facebook:
+ app_id: 1111
+ publisher: 2222
+ admins: 3333
+ locale: en_CA #https://developers.facebook.com/docs/internationalization#locales
+
+
+
+# Build settings
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
