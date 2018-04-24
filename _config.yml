@@ -44,7 +44,7 @@ facebook:
   locale: en_CA 
 webmaster_verifications:
   google: ""
-  bing: ""
+  bing: false
   alexa: ""
   yandex: ""
   baidu: ""
