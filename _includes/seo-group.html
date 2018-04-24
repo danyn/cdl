@@ -1,4 +1,4 @@
-<!-- Begin social view for how site appears in social graphs when shared -->
+<!-- Begin SEO group for social shares and rich search results -->
 
 {%- if site.title -%}
   <title>{{ site.title }} | {{ site.description }}</title>
@@ -34,14 +34,19 @@
   <meta property="og:image" content="{{ site.url }}/{{ site.social_image }}" />
 {%- endif -%}
 
+<!-- 
+The Date assigned to the Post. This can be overridden in a Post’s front matter
+by specifying a new date/time in the format  YYYY-MM-DD HH:MM:SS (assuming UTC),
+or  YYYY-MM-DD HH:MM:SS +/-TTTT (to specify a time zone using an offset from UTC.
+e.g. 2008-12-14 10:30:00 +0900).
+ -->
 
-
-{% comment %}
-{% if page.date %}
+{%- if page.date -%}
   <meta property="og:type" content="article" />
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
-{% endif %}
+{%- endif -%}
 
+{% comment %}
 {% if paginator.previous_page %}
   <link rel="prev" href="{{ paginator.previous_page_path | absolute_url }}" />
 {% endif %}
@@ -102,7 +107,7 @@
 {% endif %}
 {% endcomment %}
 
-<!-- End social view -->
+<!-- End SEO group -->
 
 <!-- Begin Schema.org description of thing -->
 {% comment %}
