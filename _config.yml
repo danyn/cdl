@@ -33,6 +33,7 @@ email: your-email@example.com
 baseurl: /cdl
 url: https://danyn.github.io
 author: Daniel Eisen
+twitter: true
 twitter_username: twitterMan
 github_username: daniel-eisen
 google_analytics: "" # google site verification for the header
