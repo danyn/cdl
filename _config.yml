@@ -36,16 +36,19 @@ author: Daniel Eisen
 twitter: true
 twitter_username: twitterMan
 github_username: daniel-eisen
-google_analytics: "" # google site verification for the header
+google_site_verification: 0928340928304
 facebook:
- app_id: 1111
- publisher: 2222
- admins: 3333
- locale: en_CA 
-
-
-
-
+  admins: 3333
+  app_id: 1111
+  publisher: 2222
+  locale: en_CA 
+webmaster_verifications:
+  google: ""
+  bing: ""
+  alexa: ""
+  yandex: ""
+  baidu: ""
+#google site verification can be entered at either point point above
 # Build settings
 
 markdown: kramdown
