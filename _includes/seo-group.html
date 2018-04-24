@@ -29,7 +29,7 @@
 
 
 {%- if page.social_image -%}
-  <meta property="og:image" content="{{ site.url }}{{site.baseurl}}/{{ page.social_image }}" />
+  <meta property="og:image" content="{{ site.url }}{{site.baseurl}}{{ page.social_image }}" />
 {%- elsif site.social_image -%}
   <meta property="og:image" content="{{ site.url }}{{site.baseurl}}/{{ site.social_image }}" />
 {%- endif -%}
