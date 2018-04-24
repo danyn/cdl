@@ -16,6 +16,7 @@
 
 # OG image is 1200 pixels x 627 pixels (1.91/1 ratio) -> don’t exceed the 5MB size limit.
 #variables
+repository: hhttps://github.com/daniel-eisen/cdl
 country: CA
 lang: en
 title: Creative Dental Labs Provides High Quality Dental Prosthetics
