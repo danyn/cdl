@@ -47,7 +47,6 @@ webmaster_verifications:
   alexa: ""
   yandex: ""
   baidu: ""
-#google site verification can be entered at either point point above
 # Build settings
 
 markdown: kramdown
