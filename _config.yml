@@ -36,15 +36,14 @@ author: Daniel Eisen
 twitter: true
 twitter_username: twitterMan
 github_username: daniel-eisen
-google_site_verification: 0928340928304
 facebook:
   admins: 3333
   app_id: 1111
   publisher: 2222
   locale: en_CA 
 webmaster_verifications:
-  google: ""
-  bing: false
+  google: 938475394875
+  bing: ""
   alexa: ""
   yandex: ""
   baidu: ""

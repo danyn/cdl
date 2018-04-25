@@ -82,27 +82,25 @@ e.g. 2008-12-14 10:30:00 +0900).
 {% endif %}
 
 {% if site.webmaster_verifications %}
-  {% if site.webmaster_verifications.google != blank %}
+  {% if site.webmaster_verifications.google != "" %}
     <meta name="google-site-verification" content="{{ site.webmaster_verifications.google }}" />
   {% endif %}
 
-  {% if site.webmaster_verifications.bing != "false" %}
+  {% if site.webmaster_verifications.bing != "" %}
     <meta name="msvalidate.01" content="{{ site.webmaster_verifications.bing }}" />
   {% endif %}
 
-  {% if site.webmaster_verifications.alexa != blank %}
+  {% if site.webmaster_verifications.alexa != "" %}
     <meta name="alexaVerifyID" content="{{ site.webmaster_verifications.alexa }}" />
   {% endif %}
 
-  {% if site.webmaster_verifications.yandex != blank %}
+  {% if site.webmaster_verifications.yandex != "" %}
     <meta name="yandex-verification" content="{{ site.webmaster_verifications.yandex }}" />
   {% endif %}
 
-  {% if site.webmaster_verifications.baidu != blank %}
+  {% if site.webmaster_verifications.baidu != "" %}
     <meta name="baidu-site-verification" content="{{ site.webmaster_verifications.baidu }}" />
   {% endif %}
-{% elsif site.google_site_verification != blank %}
-  <meta name="google_site_verification" content="{{ site.google_site_verification }}" />
 {% endif %}
 
 
