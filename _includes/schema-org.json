@@ -17,4 +17,5 @@
     "author": {
         "@type": "Person",
         "name": "add variable to page front matter"
+    }{%- endif -%}
   }
