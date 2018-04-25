@@ -1,16 +1,20 @@
 {
-    "name": "{{site.company_name}}",
+    "@context": "http://schema.org",
+    "@type": "{{site.schema_org.type}}",
     "description":"{{site.title}}. {{site.description}}",
-    {%- if page.type == "article" -%}
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "{{site.schema_org.city}}",
+      "addressRegion": "{{site.schema_org.province}}",
+      "postalCode": "{{site.schema_org.postalCode}}",
+      "streetAddress": "{{site.schema_org.streetAddress}}"
+    },
+    "email": "{{site.email}}",
+    "image": "{{site.social_image}}",
+    "name": "{{site.company_name}}",
+    "telephone": "{{site.tel}}",
+    "url": "{{site.url}}{{site.baseurl}}"{%- if page.type == "article" -%},
     "author": {
         "@type": "Person",
-        "name": "Daniel Eisen"
-    },
-    {%- endif -%}
-    "@type": "{{site.schema_org.type}}",
-    "url": "{{site.url}}{{site.baseurl}}",
-    "headline": "{{site.title}}",
-    "@context": "http://schema.org"
-}
-
-
+        "name": "add variable to page front matter"
+  }

@@ -30,6 +30,7 @@ company_name: Creative Dental Laboratory
 company_nickname: Creative Dental Labs
 social_image: assets/share_site.jpg
 email: your-email@example.com
+tel: (250) 595-1314
 baseurl: /cdl
 url: https://danyn.github.io
 author: Daniel Eisen
@@ -48,11 +49,14 @@ webmaster_verifications:
   yandex: ""
   baidu: ""
 
-#schema.org settings
+#schema.org settings which can also be used to reference these values in the site markup
 
 schema_org:
   type: MedicalBusiness
-  
+  city: Victoria
+  province: BC
+  postalCode: V8R 1J5
+  streetAddress: 1780 Fort Street Victoria
 
 
 # Build settings
@@ -74,4 +78,5 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# added while trying to fix a auth problem related to gh-pages gem I don't know what this does
 github: [metadata]
