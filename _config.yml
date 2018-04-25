@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-# http://schema.org/LocalBusiness
+
 # https://developers.facebook.com/docs/internationalization#locales
 # OG image is 1200 pixels x 627 pixels (1.91/1 ratio) -> don’t exceed the 5MB size limit.
 #variables
@@ -48,6 +48,7 @@ webmaster_verifications:
   alexa: ""
   yandex: ""
   baidu: ""
+
 
 #schema.org settings which can also be used to reference these values in the site markup
 

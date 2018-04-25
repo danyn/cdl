@@ -2,7 +2,9 @@
 layout: page
 title: About
 permalink: /about/
-social_image: /assets/share.jpg 
+social_image: /assets/share.jpg
+type: page
+rel: about
 ---
 
 
