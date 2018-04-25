@@ -10,7 +10,7 @@
       "streetAddress": "{{site.schema_org.streetAddress}}"
     },
     "email": "{{site.email}}",
-    "image": "{{site.social_image}}",
+    "image": "{{site.url}}{{site.baseurl}}{{site.social_image}}",
     "name": "{{site.company_name}}",
     "telephone": "{{site.tel}}",
     "url": "{{site.url}}{{site.baseurl}}"{%- if page.type == "article" -%},
