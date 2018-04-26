@@ -1,7 +1,6 @@
 <!-- Begin SEO group for social shares and rich search results -->
 
 {%- if site.title -%}
-  <title>{{ site.title }} | {{ site.description }}</title>
   <meta property="og:title" content="{{ site.title }}" />
 {%- endif -%}
 
@@ -19,7 +18,6 @@
 {%- endif -%}
 
 {%- if site.url -%}
-  <link rel="canonical" href="{{ site.url }}{{site.baseurl}}{{ page.url }}" />
   <meta property="og:url" content="{{ site.url }}{{site.baseurl}}{{ page.url }}" />
 {%- endif -%}
 
