@@ -19,7 +19,7 @@
 #variables
 #repository is required/helps github-pages gem it's a good idea to include
 # need to call api to find it from list of repos
-
+source: src
 repository: 130800110
 repository_url: https://github.com/danyn/cdl
 country: CA
@@ -63,17 +63,17 @@ schema_org:
 # Build settings
 
 markdown: kramdown
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
+exclude:
 #   - Gemfile
 #   - Gemfile.lock
-#   - node_modules
+  - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
