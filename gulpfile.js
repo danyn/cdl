@@ -1,5 +1,4 @@
 var gulp = require('gulp');
-var imagemin = require('gulp-imagemin');
 var sass = require('gulp-sass');
 
 gulp.task('style', function () {
